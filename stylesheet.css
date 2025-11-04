@@ -1,0 +1,39 @@
+h1{
+    font-size: clamp(20px, 5vw, 80px);
+    text-align: center;
+    color: #FC8EAC;
+    position: relative;
+    z-index: 2;
+    margin-top: clamp(20px, 5vh, 200px);
+
+    }
+button{
+    width: clamp(90px, 20vw, 400px);
+    height: clamp(20px, 7vh, 200px);
+    background-color: #FC8EAC;
+    font-size: clamp(10px, 2.5vw, 22px);
+    color: #ffb6c1;
+    border-radius: 40px;
+    font-weight: bold;
+   
+  
+
+}
+.buttons{
+text-align: center;
+position: relative;
+z-index: 1;
+    }
+    body{
+        background-color: #FC8EAC;
+        background-image: url(background3.png);
+        background-size: 90% ;
+        background-position: center;
+        background-repeat: no-repeat;
+        background-position-y: top;
+        margin: 0;
+        padding: 0;
+        height: 100vh;
+
+        
+    }
